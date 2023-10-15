@@ -1,0 +1,15 @@
+export enum ProductCategory {
+    Imoveis = 'Imóveis',
+    AutosEPecas = 'Autos e peças',
+    ParaSuaCasa = 'Para a sua casa',
+    EletronicosECelulares = 'Eletrônicos e celulares',
+    MusicaEHobbies = 'Música e hobbies',
+    EsportesELazer = 'Esportes e lazer',
+    ArtigosInfantis = 'Artigos infantis',
+    AnimaisDeEstimacao = 'Animais de estimação',
+    ModaEBeleza = 'Moda e beleza',
+    AgroEIndustria = 'Agro e indústria',
+    ComercioEEscritorio = 'Comércio e escritório',
+    Servicos = 'Serviços',
+    VagasDeEmprego = 'Vagas de emprego',
+  }
