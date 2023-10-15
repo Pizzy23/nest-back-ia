@@ -1,0 +1,86 @@
+# Olx IA :D
+
+Olx IA tem como missão aprimorar a experiência de vendedores e compradores na plataforma OLX. Nossa principal funcionalidade é auxiliar vendedores na criação de descrições e títulos de produtos cativantes, a fim de tornar as vendas de itens usados mais eficazes e seguras. Nossa IA identificará problemas nas descrições e títulos e fornecerá orientações para resolvê-los, melhorando as chances de sucesso nas vendas.
+
+### Como instalar a parte do Back
+
+Certifique-se de ter o Node.js instalado em sua máquina.
+
+Instalar o projeto.
+
+```
+npm install
+```
+
+Iniciar o projeto:
+
+```
+nest start
+localhost:3000/api
+```
+
+Teste na AWS:
+
+```
+
+```
+
+# Caso de Uso 1: Colaboração com o Sistema
+**Descrição:** A IA colabora com o nosso sistema para ajudar os vendedores a melhorar suas descrições e títulos de produtos.
+
+**Atores:** Vendedores, Sistema, IA.
+
+## Fluxo Principal:
+
+- O vendedor acessa o sistema.
+- A IA analisa as descrições e títulos fornecidos pelo vendedor.
+- A IA destaca erros e áreas de melhoria nas descrições e títulos.
+- O sistema apresenta as recomendações da IA ao vendedor.
+- O vendedor faz as edições necessárias com base nas recomendações.
+- A IA reavalia as edições do vendedor.
+- A IA fornece uma pontuação ao vendedor com base na qualidade das edições.
+
+**Fluxo Alternativo:**
+
+- Se o vendedor não fizer edições ou rejeitar as recomendações, a IA mantém a pontuação original.
+## Fluxo de Exceção:
+
+** e ocorrerem problemas técnicos na análise da IA, o sistema notifica o suporte técnico.
+
+## Caso de Uso 2: Armazenamento Seguro de Dados
+**Descrição**: Os dados gerados pela IA, incluindo descrições e títulos de vendedores, são armazenados de forma segura no banco de dados usando nosso sistema de encriptação.
+
+**Atores:** IA, Encriptação.
+
+## Fluxo Principal:
+
+- A IA coleta dados de descrições e títulos de vendedores.
+- A IA envia esses dados para o banco de dados.
+- O banco de dados armazena os dados com medidas de segurança.
+
+### Fluxo de Exceção:
+
+- Se houver uma tentativa de acesso não autorizado aos dados, o sistema aciona medidas de segurança para proteger as informações.
+
+
+# Design Patterns (Backend)
+
+- Decorators
+- Singleton
+- Factory
+
+# External Packages (Backend)
+
+- NestJs
+- Jest
+
+# Arquitetura usada (Backend)
+
+- Hexagonal Architecture
+- Modular
+## Futuro
+- **IA para Compradores**: Implementar uma IA direcionada aos compradores, permitindo que eles encontrem o que precisam com base na descrição do item e nas pontuações de qualidade. Isso tornará a compra mais eficiente e prazerosa.
+
+- **Integração com Transportadoras**: Integrar nossa plataforma com serviços de transporte para garantir entregas mais seguras e reduzir as possibilidades de fraudes. Isso aprimorará a confiabilidade do processo de compra e venda.
+
+**Contamos com sua colaboração para construir o OLX IA e tornar a experiência dos usuários ainda melhor!**
